@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Google Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Google Testcases(failed)">
+    <classes>
+      <class name="com.google.qa.testcases.SignPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="LoginTest"/>
+        </methods>
+      </class> <!-- com.google.qa.testcases.SignPageTest -->
+    </classes>
+  </test> <!-- Google Testcases(failed) -->
+</suite> <!-- Failed suite [Google Automation Test Suite] -->

@@ -1,0 +1,11 @@
+package com.google.qa.testcases;
+
+import com.google.qa.base.TestBase;
+
+public class landpagetest extends TestBase {
+
+	
+	public landpagetest() {
+		
+	}
+}

@@ -1,0 +1,27 @@
+package com.google.qa.testcases;
+
+import java.io.IOException;
+
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import com.google.qa.base.TestBase;
+import com.google.qa.pages.LandPage;
+
+public class LandPagetest extends TestBase {
+
+	LandPage landpage;
+	public LandPagetest() {
+		super();
+	}
+	
+	@BeforeMethod
+	public void setup() {
+		initialization();
+	}
+	
+	@Test
+	public void SigninClickTest() throws IOException{
+		landpage.SigninClick();
+	}
+}

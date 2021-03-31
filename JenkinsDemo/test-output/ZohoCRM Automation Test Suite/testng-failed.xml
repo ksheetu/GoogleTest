@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ZohoCRM Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ZohoCRM Testcases(failed)">
+    <classes>
+      <class name="com.zohocrm.qa.testcases.HomePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="VerifyHomePageTest"/>
+          <include name="ReportFlush"/>
+          <include name="ContactLinkClickTest"/>
+          <include name="SignOutTest"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.zohocrm.qa.testcases.HomePageTest -->
+      <class name="com.zohocrm.qa.testcases.LoginPagePasswordTest">
+        <methods>
+          <include name="LoginPagePasswordTitleTest"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="ClickOnSignInBtnTest"/>
+        </methods>
+      </class> <!-- com.zohocrm.qa.testcases.LoginPagePasswordTest -->
+      <class name="com.zohocrm.qa.testcases.LoginPageLoginIdTest">
+        <methods>
+          <include name="setup"/>
+          <include name="LoginPageLoginIdTitleTest"/>
+          <include name="teardown"/>
+          <include name="ClickOnNextBtnTest"/>
+        </methods>
+      </class> <!-- com.zohocrm.qa.testcases.LoginPageLoginIdTest -->
+    </classes>
+  </test> <!-- ZohoCRM Testcases(failed) -->
+</suite> <!-- Failed suite [ZohoCRM Automation Test Suite] -->

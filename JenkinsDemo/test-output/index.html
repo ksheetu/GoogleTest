@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-ZohoCRM_Automation_Test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">ZohoCRM Automation Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-ZohoCRM_Automation_Test_Suite" class="navigator-link ">
+                    <span>F:\Learn_Jenkins\JenkinsDemo\src\test\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-ZohoCRM_Automation_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-ZohoCRM_Automation_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-ZohoCRM_Automation_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-ZohoCRM_Automation_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-ZohoCRM_Automation_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-ZohoCRM_Automation_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods, 3 failed,  4 skipped,  2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-ZohoCRM_Automation_Test_Suite" class="hide-methods failed suite-ZohoCRM_Automation_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-ZohoCRM_Automation_Test_Suite -->
+                      <a href="#" panel-name="suite-ZohoCRM_Automation_Test_Suite" class="show-methods failed suite-ZohoCRM_Automation_Test_Suite"> (show)</a> <!-- show-methods failed suite-ZohoCRM_Automation_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-ZohoCRM_Automation_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ZohoCRM_Automation_Test_Suite" title="com.zohocrm.qa.testcases.LoginPagePasswordTest" class="method navigator-link" hash-for-method="ClickOnSignInBtnTest">ClickOnSignInBtnTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ZohoCRM_Automation_Test_Suite" title="com.zohocrm.qa.testcases.LoginPageLoginIdTest" class="method navigator-link" hash-for-method="LoginPageLoginIdTitleTest">LoginPageLoginIdTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ZohoCRM_Automation_Test_Suite" title="com.zohocrm.qa.testcases.HomePageTest" class="method navigator-link" hash-for-method="VerifyHomePageTest">VerifyHomePageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-ZohoCRM_Automation_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-ZohoCRM_Automation_Test_Suite" class="hide-methods skipped suite-ZohoCRM_Automation_Test_Suite"> (hide)</a> <!-- hide-methods skipped suite-ZohoCRM_Automation_Test_Suite -->
+                      <a href="#" panel-name="suite-ZohoCRM_Automation_Test_Suite" class="show-methods skipped suite-ZohoCRM_Automation_Test_Suite"> (show)</a> <!-- show-methods skipped suite-ZohoCRM_Automation_Test_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-ZohoCRM_Automation_Test_Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-ZohoCRM_Automation_Test_Suite" title="com.zohocrm.qa.testcases.LoginPageLoginIdTest" class="method navigator-link" hash-for-method="ClickOnNextBtnTest">ClickOnNextBtnTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-ZohoCRM_Automation_Test_Suite" title="com.zohocrm.qa.testcases.HomePageTest" class="method navigator-link" hash-for-method="ContactLinkClickTest">ContactLinkClickTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-ZohoCRM_Automation_Test_Suite" title="com.zohocrm.qa.testcases.LoginPagePasswordTest" class="method navigator-link" hash-for-method="LoginPagePasswordTitleTest">LoginPagePasswordTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-ZohoCRM_Automation_Test_Suite" title="com.zohocrm.qa.testcases.HomePageTest" class="method navigator-link" hash-for-method="SignOutTest">SignOutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-ZohoCRM_Automation_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-ZohoCRM_Automation_Test_Suite" class="hide-methods passed suite-ZohoCRM_Automation_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-ZohoCRM_Automation_Test_Suite -->
+                      <a href="#" panel-name="suite-ZohoCRM_Automation_Test_Suite" class="show-methods passed suite-ZohoCRM_Automation_Test_Suite"> (show)</a> <!-- show-methods passed suite-ZohoCRM_Automation_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-ZohoCRM_Automation_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ZohoCRM_Automation_Test_Suite" title="com.zohocrm.qa.testcases.LandingPageTest" class="method navigator-link" hash-for-method="ClickOnSignInTest">ClickOnSignInTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ZohoCRM_Automation_Test_Suite" title="com.zohocrm.qa.testcases.LandingPageTest" class="method navigator-link" hash-for-method="landingPageTitleTest">landingPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-ZohoCRM_Automation_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-ZohoCRM_Automation_Test_Suite" class="panel ZohoCRM_Automation_Test_Suite">
+          <div class="suite-ZohoCRM_Automation_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.zohocrm.qa.testcases.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyHomePageTest">
+                  </a> <!-- VerifyHomePageTest -->
+                  <span class="method-name">VerifyHomePageTest</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;this.extent&quot; is null
+	at com.zohocrm.qa.testcases.HomePageTest.VerifyHomePageTest(HomePageTest.java:81)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ZohoCRM_Automation_Test_Suite-class-failed -->
+          <div class="suite-ZohoCRM_Automation_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.zohocrm.qa.testcases.LoginPagePasswordTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnSignInBtnTest">
+                  </a> <!-- ClickOnSignInBtnTest -->
+                  <span class="method-name">ClickOnSignInBtnTest</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;this.extent&quot; is null
+	at com.zohocrm.qa.testcases.LoginPagePasswordTest.ClickOnSignInBtnTest(LoginPagePasswordTest.java:82)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ZohoCRM_Automation_Test_Suite-class-failed -->
+          <div class="suite-ZohoCRM_Automation_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.zohocrm.qa.testcases.LoginPageLoginIdTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPageLoginIdTitleTest">
+                  </a> <!-- LoginPageLoginIdTitleTest -->
+                  <span class="method-name">LoginPageLoginIdTitleTest</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;com.aventstack.extentreports.ExtentReports.createTest(String)&quot; because &quot;this.extent&quot; is null
+	at com.zohocrm.qa.testcases.LoginPageLoginIdTest.LoginPageLoginIdTitleTest(LoginPageLoginIdTest.java:63)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ZohoCRM_Automation_Test_Suite-class-failed -->
+          <div class="suite-ZohoCRM_Automation_Test_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.zohocrm.qa.testcases.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ContactLinkClickTest">
+                  </a> <!-- ContactLinkClickTest -->
+                  <span class="method-name">ContactLinkClickTest</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)&quot; because &quot;this.extenttest&quot; is null
+	at com.zohocrm.qa.testcases.HomePageTest.teardown(HomePageTest.java:116)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignOutTest">
+                  </a> <!-- SignOutTest -->
+                  <span class="method-name">SignOutTest</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)&quot; because &quot;this.extenttest&quot; is null
+	at com.zohocrm.qa.testcases.HomePageTest.teardown(HomePageTest.java:116)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ZohoCRM_Automation_Test_Suite-class-skipped -->
+          <div class="suite-ZohoCRM_Automation_Test_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.zohocrm.qa.testcases.LoginPagePasswordTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPagePasswordTitleTest">
+                  </a> <!-- LoginPagePasswordTitleTest -->
+                  <span class="method-name">LoginPagePasswordTitleTest</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)&quot; because &quot;this.extenttest&quot; is null
+	at com.zohocrm.qa.testcases.LoginPagePasswordTest.teardown(LoginPagePasswordTest.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ZohoCRM_Automation_Test_Suite-class-skipped -->
+          <div class="suite-ZohoCRM_Automation_Test_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.zohocrm.qa.testcases.LoginPageLoginIdTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnNextBtnTest">
+                  </a> <!-- ClickOnNextBtnTest -->
+                  <span class="method-name">ClickOnNextBtnTest</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)&quot; because &quot;this.extenttest&quot; is null
+	at com.zohocrm.qa.testcases.LoginPageLoginIdTest.teardown(LoginPageLoginIdTest.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ZohoCRM_Automation_Test_Suite-class-skipped -->
+          <div class="suite-ZohoCRM_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.zohocrm.qa.testcases.LandingPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnSignInTest">
+                  </a> <!-- ClickOnSignInTest -->
+                  <span class="method-name">ClickOnSignInTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="landingPageTitleTest">
+                  </a> <!-- landingPageTitleTest -->
+                  <span class="method-name">landingPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ZohoCRM_Automation_Test_Suite-class-passed -->
+        </div> <!-- panel ZohoCRM_Automation_Test_Suite -->
+        <div panel-name="test-xml-ZohoCRM_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\Learn_Jenkins\JenkinsDemo\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;ZohoCRM Automation Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ZohoCRM Testcases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.zohocrm.qa.testcases.LandingPageTest&quot;/&gt;
+      &lt;class name=&quot;com.zohocrm.qa.testcases.LoginPageLoginIdTest&quot;/&gt;
+      &lt;class name=&quot;com.zohocrm.qa.testcases.LoginPagePasswordTest&quot;/&gt;
+      &lt;class name=&quot;com.zohocrm.qa.testcases.HomePageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ZohoCRM Testcases --&gt;
+&lt;/suite&gt; &lt;!-- ZohoCRM Automation Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-ZohoCRM_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for ZohoCRM Automation Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ZohoCRM Testcases (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-ZohoCRM_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for ZohoCRM Automation Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-ZohoCRM_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for ZohoCRM Automation Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_ZohoCRM_Automation_Test_Suite');
+function tableData_ZohoCRM_Automation_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'ClickOnSignInTest')
+data.setCell(0, 2, 'com.zohocrm.qa.testcases.LandingPageTest')
+data.setCell(0, 3, 5821);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'landingPageTitleTest')
+data.setCell(1, 2, 'com.zohocrm.qa.testcases.LandingPageTest')
+data.setCell(1, 3, 293);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'VerifyHomePageTest')
+data.setCell(2, 2, 'com.zohocrm.qa.testcases.HomePageTest')
+data.setCell(2, 3, 8);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ClickOnSignInBtnTest')
+data.setCell(3, 2, 'com.zohocrm.qa.testcases.LoginPagePasswordTest')
+data.setCell(3, 3, 4);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'LoginPageLoginIdTitleTest')
+data.setCell(4, 2, 'com.zohocrm.qa.testcases.LoginPageLoginIdTest')
+data.setCell(4, 3, 4);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'ClickOnNextBtnTest')
+data.setCell(5, 2, 'com.zohocrm.qa.testcases.LoginPageLoginIdTest')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'LoginPagePasswordTitleTest')
+data.setCell(6, 2, 'com.zohocrm.qa.testcases.LoginPagePasswordTest')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'ContactLinkClickTest')
+data.setCell(7, 2, 'com.zohocrm.qa.testcases.HomePageTest')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'SignOutTest')
+data.setCell(8, 2, 'com.zohocrm.qa.testcases.HomePageTest')
+data.setCell(8, 3, 0);
+window.suiteTableData['ZohoCRM_Automation_Test_Suite']= { tableData: data, tableDiv: 'times-div-ZohoCRM_Automation_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <div id="times-div-ZohoCRM_Automation_Test_Suite">
+              </div> <!-- times-div-ZohoCRM_Automation_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-ZohoCRM_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for ZohoCRM Automation Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-ZohoCRM_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-ZohoCRM_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zohocrm.qa.testcases.LandingPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setupExtent</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">1314 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">landingPageTitleTest</span>
+                <span class="method-start">13678 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Teardown([TestResult name=landingPageTitleTest status=SUCCESS method=LandingPageTest.landingPageTitleTest()[p...)</span>
+                <span class="method-start">13976 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">14849 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ClickOnSignInTest</span>
+                <span class="method-start">20723 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Teardown([TestResult name=ClickOnSignInTest status=SUCCESS method=LandingPageTest.ClickOnSignInTest()[pri:2, ...)</span>
+                <span class="method-start">26546 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zohocrm.qa.testcases.LoginPageLoginIdTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">27769 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LoginPageLoginIdTitleTest</span>
+                <span class="method-start">39317 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">teardown([TestResult name=LoginPageLoginIdTitleTest status=FAILURE method=LoginPageLoginIdTest.LoginPageLogin...)</span>
+                <span class="method-start">39331 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">39339 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ClickOnNextBtnTest</span>
+                <span class="method-start">39347 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">39356 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zohocrm.qa.testcases.LoginPagePasswordTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">39361 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ClickOnSignInBtnTest</span>
+                <span class="method-start">51853 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">teardown([TestResult name=ClickOnSignInBtnTest status=FAILURE method=LoginPagePasswordTest.ClickOnSignInBtnTe...)</span>
+                <span class="method-start">51860 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">51869 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginPagePasswordTitleTest</span>
+                <span class="method-start">51876 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">51900 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zohocrm.qa.testcases.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">51920 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyHomePageTest</span>
+                <span class="method-start">71795 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">teardown([TestResult name=VerifyHomePageTest status=FAILURE method=HomePageTest.VerifyHomePageTest()[pri:1, i...)</span>
+                <span class="method-start">71813 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">71821 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ContactLinkClickTest</span>
+                <span class="method-start">71824 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">71831 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">71844 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SignOutTest</span>
+                <span class="method-start">71847 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">71866 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">ReportFlush</span>
+                <span class="method-start">72737 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zohocrm.qa.testcases.LandingPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">ReportFlush</span>
+                <span class="method-start">72739 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,15 @@
+package com.google.qa.testcases;
+
+import com.google.qa.base.TestBase;
+
+public class LandPagetest extends TestBase {
+
+	landpage 
+	public LandPagetest() {
+		super();
+	}
+	
+	public void SigninClickTest(){
+		landpage.
+	}
+}

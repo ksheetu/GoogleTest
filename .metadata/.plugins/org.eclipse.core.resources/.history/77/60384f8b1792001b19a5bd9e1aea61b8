@@ -1,0 +1,10 @@
+package com.google.qa.testcases;
+
+public class SignPageTest {
+	
+	
+	public SignPageTest(){
+		
+	}
+
+}

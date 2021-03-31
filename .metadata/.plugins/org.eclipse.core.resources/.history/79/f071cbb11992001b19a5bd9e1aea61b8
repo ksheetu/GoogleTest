@@ -1,0 +1,36 @@
+package com.google.qa.testcases;
+
+import java.io.IOException;
+
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import com.google.qa.base.TestBase;
+import com.google.qa.pages.HomePage;
+import com.google.qa.pages.LandPage;
+import com.google.qa.pages.SignInPage;
+
+public class SignPageTest extends TestBase {
+	LandPage landpage;
+	SignInPage signinpage;
+	HomePage homepage;
+	
+	public SignPageTest(){
+		super();
+	}
+	
+	@BeforeMethod
+	public void setup() throws IOException {
+		initialization();
+		landpage=new LandPage();
+		signinpage=landpage.SigninClick();
+	}
+	
+	@Test(priority=1)
+	public HomePage LoginTest(){
+		return homepage=signinpage.Login("ksheetu@gmail.com", "Tej@m123");
+		
+	}
+	
+
+}

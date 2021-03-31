@@ -1,0 +1,43 @@
+package com.google.qa.pages;
+
+import java.io.IOException;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import com.google.qa.base.TestBase;
+
+public class SignInPage extends TestBase {
+	
+
+	@FindBy(xpath="//input[@type='email']")
+	WebElement Email;
+	
+	@FindBy(xpath="//span[text()='Next']")
+	WebElement NextBtn;
+	
+	@FindBy(xpath="//input[@name='password']")
+	WebElement Pass;
+	
+	public SignInPage() throws IOException {
+		PageFactory.initElements(driver, this);
+	}
+	
+	public void  Email(String email) throws InterruptedException {
+		Email.sendKeys(email);
+		NextBtn.click();
+		Thread.sleep(2000);
+		
+		
+		
+	}
+	
+	public HomePage Pass(String pass) {
+		Pass.sendKeys(pass);
+		NextBtn.click();
+		return new HomePage();
+	}
+	
+	
+}

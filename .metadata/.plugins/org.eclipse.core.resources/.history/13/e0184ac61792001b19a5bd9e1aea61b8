@@ -1,0 +1,16 @@
+package com.google.qa.testcases;
+
+import com.google.qa.base.TestBase;
+
+public class SignPageTest extends TestBase {
+	
+	
+	public SignPageTest(){
+		super();
+	}
+	
+	public void EmailTest(){
+		
+	}
+
+}
