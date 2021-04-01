@@ -1,8 +1,0 @@
-browser=chrome
-url=https://www.zoho.com/in/crm/
-
-usernamedata=ksheetu@gmail.com
-passworddata=Tej@m123
-
-pageloadtime=60
-implicitwaitTime=10
